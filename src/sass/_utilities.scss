@@ -1,0 +1,18 @@
+@use "./variables" as *;
+
+.auth-placeholder::placeholder {
+    color: $color_primary_0;
+}
+
+.flex-hor-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-vert-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

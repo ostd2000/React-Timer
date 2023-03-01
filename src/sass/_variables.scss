@@ -1,0 +1,78 @@
+$color_primary: hsl(219, 49%, 56%);
+$color_secondary: hsl(251, 28%, 43%);
+
+$color_danger: hsl(348, 45%, 58%);
+$color_danger_background: hsl(0, 5%, 12%);
+
+$color_primary_0: hsl(219, 31%, 33%);
+$color_primary_100: hsl(219, 20%, 17%);
+$color_primary_200: hsl(220, 18%, 16%);
+$color_primary_300: hsl(219, 18%, 16%);
+$color_primary_400: hsl(215, 16%, 15%);
+$color_primary_500: hsl(215, 16%, 15%);
+$color_primary_600: hsl(213, 13%, 14%);
+$color_primary_700: hsl(223, 10%, 13%);
+$color_primary_800: hsl(223, 10%, 13%);
+$color_primary_900: hsl(216, 8%, 12%);
+$color_primary_1000: hsl(0, 0%, 10%);
+
+$color_primary_hovered: hsl(219, 49%, 58%);
+$color_primary_focused: hsl(218, 49%, 61%);
+$color_primary_pressed: hsl(219, 49%, 61%);
+$color_primary_dragged: hsl(219, 50%, 60%);
+
+$color_secondary_hovered: hsl(250, 26%, 45%);
+$color_secondary_focused: hsl(251, 21%, 49%);
+$color_secondary_pressed: hsl(252, 23%, 48%);
+$color_secondary_dragged: hsl(252, 24%, 47%);
+
+$color_danger_hovered: hsl(348, 45%, 60%);
+$color_danger_focused: hsl(348, 45%, 63%);
+$color_danger_pressed: hsl(348, 46%, 63%);
+$color_danger_dragged: hsl(348, 46%, 62%);
+
+$color_disabled: hsl(0, 0%, 20%);
+$color_disabled_txt: hsl(0, 0%, 42%);
+
+$color_primary_outlined_hovered: hsl(240, 5%, 12%);
+$color_primary_outlined_focused: hsl(215, 16%, 15%);
+$color_primary_outlined_pressed: hsl(216, 14%, 14%);
+$color_primary_outlined_dragged: hsl(223, 10%, 13%);
+
+$color_secondary_outlined_hovered: hsl(240, 4%, 11%);
+$color_secondary_outlined_focused: hsl(249, 10%, 14%);
+$color_secondary_outlined_pressed: hsl(250, 9%, 13%);
+$color_secondary_outlined_dragged: hsl(264, 8%, 12%);
+
+$color_danger_outlined_hovered: hsl(0, 5%, 12%);
+$color_danger_outlined_focused: hsl(344, 14%, 15%);
+$color_danger_outlined_pressed: hsl(352, 11%, 15%);
+$color_danger_outlined_dragged: hsl(350, 9%, 13%);
+
+$color_txt_100: hsl(0, 0%, 87%);
+$color_txt_200: hsl(0, 0%, 62%);
+$color_txt_300: hsl(0, 0%, 42%);
+
+$color_online: hsl(148, 54%, 54%);
+
+$font-size-100: 1rem;
+$font-size-200: 1.2rem;
+$font-size-300: 1.4rem;
+$font-size-400: 1.6rem;
+$font-size-500: 2rem;
+$font-size-600: 2.4rem;
+$font-size-700: 3.2rem;
+$font-size-800: 3.6rem;
+$font-size-900: 4rem;
+$font-size-1000: 4.8rem;
+$font-size-1100: 6.4rem;
+$font-size-1200: 9.6rem;
+
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-regular: normal;
+$font-weight-medium: 500;
+$font-weight-bold: bold;
+$font-weight-extra-bold: 800;
+$font-weight-black: 850;
+$font-weight-extra-black: 900;

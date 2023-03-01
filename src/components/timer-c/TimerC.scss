@@ -1,0 +1,59 @@
+@use "../../sass/variables" as *;
+
+.timer-c {
+    position: relative;
+
+    width: 4.5rem;
+    height: 4.5rem;
+
+    &__svg {
+        // Flips the SVG and makes the animation to move left-to-right.
+        transform: scaleX(-1);
+    }
+
+    // Remove SVG styling that would hide the time label.
+    &__c1 {
+        fill: none;
+        stroke: none;
+    }
+
+    // The SVG path that displays the timer's progress.
+    &__path-elapsed {
+        stroke: $color_disabled_txt;
+        stroke-width: 3px;
+    }
+
+    &__path-remaining {
+        stroke-width: 3px;
+
+        // Round the line endings to create a seamless circle.
+        stroke-linecap: round;
+
+        // Make sure the animation starts from the top of the circle.
+        transform: rotate(90deg);
+        transform-origin: center;
+
+        // One second aligns with the speed of the countdown timer
+        transition: 1s linear stroke-dasharray;
+
+        stroke: currentColor;
+    }
+
+    &__time {
+        position: absolute;
+
+        // If we don't do this, using flex box capabilities won't work.
+        top: 0;
+
+        width: 4.5rem;
+        height: 4.5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: $font-size-100;
+
+        color: $color_primary;
+    }
+}
